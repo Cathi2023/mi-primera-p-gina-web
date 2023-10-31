@@ -1,28 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Página Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <style>
+        /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F49AC2;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #AEC6CF;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Estilos para secciones específicas */
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.proyecto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #FFD1DC;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+        /* Tu código CSS va aquí */
+        body {
+            font-family: Arial, sans-serif;
+            /* Otros estilos */
+        }
+        
+        /* Más estilos */
+    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo de estilos CSS -->
 </head>
 <body>
-    <header>
-        <h1>Bienvenidos a mi página Web</h1>
-    </header>
+    <section id="Inicio">
+        <img src="https://images.unsplash.com/photo-1588200908342-23b585c03e26?auto=format&fit=crop&q=80&w=1170&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de cabecera">
 
+    </section>
+
+    <header>
+        <h1>Mi Nombre</h1>
+        <p>Diseñador y Desarrollador Web</p>
+    </header>
+    
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
     <main>
-        <h2>Contenido Principal</h2>
-        <p>Bienvenido a mi página Web. Este es el contenido principal de la página.</p>
-    </main>
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Soy un apasionado diseñador y desarrollador web con experiencia en la creación de sitios web atractivos y funcionales. Mi enfoque se centra en combinar diseño creativo con código sólido para ofrecer experiencias en línea excepcionales.</p>
+        </section>
 
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyecto">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del primer proyecto. Incluye información sobre tu rol y logros.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del segundo proyecto. Destaca tu contribución y resultados obtenidos.</p>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Diseño web</li>
+                <li>Desarrollo front-end</li>
+                <li>Programación en HTML, CSS y JavaScript</li>
+                <li>Gestión de proyectos</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¡Estoy emocionado por la posibilidad de trabajar contigo! Puedes contactarme en [tu dirección de correo electrónico] o a través de mis redes sociales: [enlaces a redes sociales].</p>
+        </section>
+    </main>
+    
     <footer>
-        <p>Derechos de autor &copy; 2023 Mi Página Web</p>
+        <p>&copy; 2023 Mi Portafolio</p>
     </footer>
 </body>
 </html>
